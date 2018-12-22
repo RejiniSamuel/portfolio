@@ -6,7 +6,7 @@ import PortfolioCard from '../PortfolioCard/PortfolioCard';
 
 const PortfolioList = ({portfolios}) => {
     return (
-            <div className = 'f3'>
+            <div className = 'tc f3'>
                <h1>Portfolio</h1>
                {
                portfolios.map((portfolio,i) => {
@@ -16,6 +16,7 @@ const PortfolioList = ({portfolios}) => {
                     id={portfolios[i].id}
                     appname={portfolios[i].appname}
                     appurl={portfolios[i].appurl}
+                     appDesc={portfolios[i].appDesc}
                     />
                     );
                 })

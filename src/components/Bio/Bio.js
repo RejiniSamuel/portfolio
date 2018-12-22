@@ -5,12 +5,12 @@ import rejiniPic from './rejiniPic.png';
 
 const Bio = () => {
     return (
-            <div className = 'f3'>
+         <div className = 'tc f3'>
                <h1>Bio</h1>
                  
                   <p className="lh-copy measure center f6 black-70"></p>
                   <article className="mw5 bg-white br3 pa3 center shadow-5 pa4-ns mv3 ba b--black-10">
-						  <div className="tc">
+						  <div className="pa2">
 						    <img alt='' src={rejiniPic} className="br-100 h3 w3 dib" title="" />
 						    <h1 className="f4">Rejini Samuel</h1>
 						      <p className="lh-copy measure center f6 black-70">
