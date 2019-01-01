@@ -5,13 +5,13 @@ import React from 'react';
 
 const PortfolioCard = ({id, appname, appurl, appDesc}) => {
     return (
-            <div className="tc dib bg-white br3 pa3 ma2 grow shadow-5 ba b--black-10">
+            <div className="tc dib bg-white br3 pa1 ma2 grow shadow-5 ba b--black-5">
                 <p className="lh-copy measure center f6 black-70">
-                <h3>Portfolio Card</h3>
+                <h3></h3>
                     <div >
-                    <img alt='' src={`https://robohash.org/${id}?200x200'`} />
+                  
                       <h2>{appname}</h2>
-                      <h2>{appurl}</h2>
+                      <a href={`https://${appurl}`}> {appurl} </a>
                       <p className="lh-copy measure center f6 black-70">{appDesc}</p>
                     </div>
                  </p>
@@ -21,3 +21,5 @@ const PortfolioCard = ({id, appname, appurl, appDesc}) => {
   }
 
 export default PortfolioCard;
+
+//  <img alt='' src={`https://robohash.org/${id}?200x200'`} />

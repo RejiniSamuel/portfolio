@@ -6,11 +6,10 @@ import React from 'react';
 
 const SearchBox = ({searchInput, searchChange}) => {
     return (
-            <div className = 'tc pa2'>
+            <div className = 'tc pa1 mw5 bg-white br3 center shadow-5 pa2-ns mv1 ba b--black-10'>
               <input 
-              classname='pa2'
                 type='search' 
-                placeholder='Search apps' 
+                placeholder='Search Portfolio' 
                 onChange={searchChange}/>
             </div>
           );

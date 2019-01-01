@@ -1,0 +1,388 @@
+<petfinder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://api.petfinder.com/schemas/0.9/petfinder.xsd">
+<header>
+<version>0.1</version>
+<timestamp>2018-12-28T17:46:52Z</timestamp>
+<status>
+<code>100</code>
+<message/>
+</status>
+</header>
+<lastOffset>25</lastOffset>
+<shelters>
+<shelter>
+<id>GA335</id>
+<name>LifeLine Animal Project</name>
+<address1>P.O. Box 15466</address1>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30002</zip>
+<country>US</country>
+<latitude>33.7727</latitude>
+<longitude>-84.2649</longitude>
+<phone>404-292-8800 </phone>
+<fax/>
+<email>adoptions@atlantapets.org</email>
+</shelter>
+<shelter>
+<id>GA627</id>
+<name>Doggie Harmony</name>
+<address1/>
+<address2/>
+<city>Decatur</city>
+<state>GA</state>
+<zip>30030</zip>
+<country>US</country>
+<latitude>33.7717</latitude>
+<longitude>-84.294</longitude>
+<phone/>
+<fax/>
+<email>adopt@doggieharmony.org</email>
+</shelter>
+<shelter>
+<id>GA937</id>
+<name>Oakhurst Guinea Pig Rescue</name>
+<address1/>
+<address2/>
+<city>Decatur</city>
+<state>GA</state>
+<zip>30030</zip>
+<country>US</country>
+<latitude>33.7717</latitude>
+<longitude>-84.294</longitude>
+<phone/>
+<fax/>
+<email>thomas.pederson@ogpr.org</email>
+</shelter>
+<shelter>
+<id>GA423</id>
+<name>Dekalb County Animal Services</name>
+<address1>3280 Chamblee Dunwoody Rd</address1>
+<address2/>
+<city>Chamblee</city>
+<state>GA</state>
+<zip>30341</zip>
+<country>US</country>
+<latitude>33.7374</latitude>
+<longitude>-84.2666</longitude>
+<phone>(404) 294-2165</phone>
+<fax/>
+<email>adoption@dekalbanimalservices.com</email>
+</shelter>
+<shelter>
+<id>GA256</id>
+<name>Animal Action Rescue</name>
+<address1/>
+<address2/>
+<city>Clarkston</city>
+<state>GA</state>
+<zip>30021</zip>
+<country>US</country>
+<latitude>33.8095</latitude>
+<longitude>-84.2372</longitude>
+<phone>(404) 668-0100</phone>
+<fax/>
+<email>jared@animalactionrescue.org</email>
+</shelter>
+<shelter>
+<id>GA932</id>
+<name>Canine Caravan Rescue, Inc.</name>
+<address1/>
+<address2/>
+<city>Clarkston</city>
+<state>GA</state>
+<zip>30021</zip>
+<country>US</country>
+<latitude>33.8095</latitude>
+<longitude>-84.2372</longitude>
+<phone/>
+<fax/>
+<email>caninecaravanrescue@gmail.com</email>
+</shelter>
+<shelter>
+<id>GA941</id>
+<name>Southern Animal Volunteer Effort</name>
+<address1/>
+<address2/>
+<city>Decatur</city>
+<state>GA</state>
+<zip>30033</zip>
+<country>US</country>
+<latitude>33.8144</latitude>
+<longitude>-84.2814</longitude>
+<phone/>
+<fax/>
+<email>info@savecares.com</email>
+</shelter>
+<shelter>
+<id>GA644</id>
+<name>SNAP 2 IT</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>31141</zip>
+<country>US</country>
+<latitude>33.7929</latitude>
+<longitude>-84.3251</longitude>
+<phone>(404) 957-6914</phone>
+<fax/>
+<email>adoptions@snap2it.org</email>
+</shelter>
+<shelter>
+<id>GA131</id>
+<name>Atlanta Animal Rescue Friends, Inc. (AARF)</name>
+<address1>6570 James B Rivers Dr</address1>
+<address2/>
+<city>Stone Mountain</city>
+<state>GA</state>
+<zip>30083</zip>
+<country>US</country>
+<latitude>33.7896</latitude>
+<longitude>-84.2022</longitude>
+<phone>678-534-3483 </phone>
+<fax/>
+<email>info@aarfatlanta.org</email>
+</shelter>
+<shelter>
+<id>GA662</id>
+<name>A Welcome Home Animal Rescue</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30333</zip>
+<country>US</country>
+<latitude>33.7788</latitude>
+<longitude>-84.3361</longitude>
+<phone>(678) 626-7457</phone>
+<fax/>
+<email/>
+</shelter>
+<shelter>
+<id>GA919</id>
+<name>Doberman Rescue of Atlanta</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30307</zip>
+<country>US</country>
+<latitude>33.7677</latitude>
+<longitude>-84.3363</longitude>
+<phone/>
+<fax/>
+<email>info@dobermanrescueatlanta.com</email>
+</shelter>
+<shelter>
+<id>GA914</id>
+<name>PAWS Atlanta</name>
+<address1>5287 Covington Highway</address1>
+<address2/>
+<city>Decatur</city>
+<state>GA</state>
+<zip>30035</zip>
+<country>US</country>
+<latitude>33.7295</latitude>
+<longitude>-84.2145</longitude>
+<phone>(770) 593-1155</phone>
+<fax/>
+<email>lmckelvey@pawsatlanta.org</email>
+</shelter>
+<shelter>
+<id>GA655</id>
+<name>Great Pyrenees Rescue of Atlanta</name>
+<address1>4651 Woodstock Road</address1>
+<address2>Suite 208-185</address2>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30359</zip>
+<country>US</country>
+<latitude>33.8132</latitude>
+<longitude>-84.3363</longitude>
+<phone>(404) 829-2609</phone>
+<fax/>
+<email>info@greatpyratlanta.com</email>
+</shelter>
+<shelter>
+<id>GA653</id>
+<name>Southern Animal Rescue</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30316</zip>
+<country>US</country>
+<latitude>33.7237</latitude>
+<longitude>-84.3349</longitude>
+<phone> </phone>
+<fax/>
+<email>SouthernAnimalRescue@gmail.com</email>
+</shelter>
+<shelter>
+<id>GA875</id>
+<name>Releash Atlanta</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30345</zip>
+<country>US</country>
+<latitude>33.8504</latitude>
+<longitude>-84.2815</longitude>
+<phone/>
+<fax/>
+<email>petfinder@releashatlanta.com</email>
+</shelter>
+<shelter>
+<id>GA446</id>
+<name>Animal Companion Rescue Foundation</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30358</zip>
+<country>US</country>
+<latitude>33.7489</latitude>
+<longitude>-84.3881</longitude>
+<phone>000-000-0000</phone>
+<fax/>
+<email>pawsandstars.animalrescue@yahoo.com</email>
+</shelter>
+<shelter>
+<id>GA508</id>
+<name>Atlanta Lab Rescue</name>
+<address1>PO Box 250206</address1>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30325</zip>
+<country>US</country>
+<latitude>33.7489</latitude>
+<longitude>-84.3881</longitude>
+<phone/>
+<fax/>
+<email>info@atlantalabrescue.com</email>
+</shelter>
+<shelter>
+<id>GA697</id>
+<name>Georgia Homeless Pets</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>31139</zip>
+<country>US</country>
+<latitude>33.7489</latitude>
+<longitude>-84.3881</longitude>
+<phone>(404) 590-2190 </phone>
+<fax/>
+<email>adoptions@gahomelesspets.com</email>
+</shelter>
+<shelter>
+<id>GA742</id>
+<name>Joint Venture Rescue</name>
+<address1/>
+<address2/>
+<city>Stone Mountain</city>
+<state>GA</state>
+<zip>30087</zip>
+<country>US</country>
+<latitude>33.8203</latitude>
+<longitude>-84.1413</longitude>
+<phone/>
+<fax/>
+<email>deb923@bellsouth.net</email>
+</shelter>
+<shelter>
+<id>GA854</id>
+<name>Much Ado About Hounds, Inc.</name>
+<address1/>
+<address2/>
+<city>Stone Mountain</city>
+<state>GA</state>
+<zip>30087</zip>
+<country>US</country>
+<latitude>33.8203</latitude>
+<longitude>-84.1413</longitude>
+<phone>7707783405 </phone>
+<fax/>
+<email>muchadohounds@hotmail.com</email>
+</shelter>
+<shelter>
+<id>GA558</id>
+<name>New Rattitude - national Rat Terrier rescue</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30341</zip>
+<country>US</country>
+<latitude>33.8861</latitude>
+<longitude>-84.2931</longitude>
+<phone>& all over the US </phone>
+<fax/>
+<email>Inquiry@NewRattitude.org</email>
+</shelter>
+<shelter>
+<id>GA915</id>
+<name>Meow or Never Inc</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30341</zip>
+<country>US</country>
+<latitude>33.8861</latitude>
+<longitude>-84.2931</longitude>
+<phone/>
+<fax/>
+<email>meoworneverrescue@gmail.com</email>
+</shelter>
+<shelter>
+<id>GA945</id>
+<name>Three Paws Rescue</name>
+<address1/>
+<address2/>
+<city>Chamblee</city>
+<state>GA</state>
+<zip>30341</zip>
+<country>US</country>
+<latitude>33.8861</latitude>
+<longitude>-84.2931</longitude>
+<phone>(762) 499-0798</phone>
+<fax/>
+<email>hello@threepawsrescue.org</email>
+</shelter>
+<shelter>
+<id>GA652</id>
+<name>Ginny Millner Rescue Group</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30305</zip>
+<country>US</country>
+<latitude>33.8298</latitude>
+<longitude>-84.3864</longitude>
+<phone/>
+<fax/>
+<email>jachambers4806@yahoo.com</email>
+</shelter>
+<shelter>
+<id>GA903</id>
+<name>W-Underdogs Atlanta</name>
+<address1/>
+<address2/>
+<city>Atlanta</city>
+<state>GA</state>
+<zip>30315</zip>
+<country>US</country>
+<latitude>33.7087</latitude>
+<longitude>-84.3832</longitude>
+<phone/>
+<fax/>
+<email>wunderdogsatlanta@gmail.com</email>
+</shelter>
+</shelters>
+</petfinder>

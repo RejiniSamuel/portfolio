@@ -7,7 +7,7 @@ import PortfolioCard from '../PortfolioCard/PortfolioCard';
 const PortfolioList = ({portfolios}) => {
     return (
             <div className = 'tc f3'>
-               <h1>Portfolio</h1>
+               <h2>Portfolio</h2>
                {
                portfolios.map((portfolio,i) => {
                	return (
