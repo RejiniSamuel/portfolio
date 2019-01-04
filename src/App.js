@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import Bio from './components/Bio/Bio';
 import PortfolioList from './components/PortfolioList/PortfolioList';
+import SkillsList from './components/SkillsList/SkillsList';
 import SearchBox from './components/SearchBox/SearchBox';
-import UserInput from './components/UserInput/UserInput';
-import UserOutput from './components/UserOutput/UserOutput';
+import OtherProjects from './components/OtherProjects/OtherProjects';
+//import UserInput from './components/UserInput/UserInput';
+//import UserOutput from './components/UserOutput/UserOutput';
+//import ControlledCarousel from './components/ControlledCarousel/ControlledCarousel';
 
 //import MapTest from './components/MapTest/MapTest';
 //import MapContainer from './components/MapContainer/MapContainer';
 //import logo from './logo.svg';
 import './App.css';
 import { portfolios }  from './portfolios';
+import { skills }  from './skills';
 
 
 
@@ -37,6 +41,7 @@ class App extends Component {
 
 
   render() {
+
   	const filteredPortfolios = this.state.portfolios.filter(portfolios => {
 				return portfolios.appname.toLowerCase().includes(this.state.searchInput.toLowerCase())
 				});
@@ -45,6 +50,9 @@ class App extends Component {
 	if ( this.state.showPortfolios ) {
 		  ports = ( 
 		  	<div>
+		  	
+
+
 		        <SearchBox searchChange={this.onSearchChange}/>
 		        <PortfolioList portfolios={filteredPortfolios}/>
        		 </div> 
@@ -55,7 +63,10 @@ class App extends Component {
     <div>
 
         <Bio />   	
-        {ports}
+
+         <SkillsList skills={skills}/>
+                 {ports}
+        <OtherProjects />
   	</div>
 
     );

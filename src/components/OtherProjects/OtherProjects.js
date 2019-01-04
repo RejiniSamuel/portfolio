@@ -1,35 +1,48 @@
 import React from 'react';
 //import { Button } from 'react-bootstrap';
-//import sea from '../../assets/flowers.jpg';
+//import sea from '../../assets/sea.jpg';
 //import PortfolioCard from '../PortfolioCard/PortfolioCard';
-//import './App.css';
+import './OtherProjects.css';
 
 
-const PortfolioCard = ({id, appname, appurl, appDesc}) => {
+const OtherProjects = ({id, appname, appurl, appDesc}) => {
     return (
-// <div>
-            <div className="tc dib o-60 bg-purple br3 pa1 ma2 grow shadow-5 ba b--black-5">
-                <p className="lh-copy measure center f6 black-100">
-                
-                    <div>
-                      
-                      <a  class="btn btn-link black-100 f2" href={appurl}> {appname} </a>
-                       <p className="center o-100">{appDesc}</p>
-                    </div>
-                 </p>
+<div>
+
+
+  <section className="cf mt5 pv5  ph6-l">
+    <h1 className="tc f5 ttu fw6 tracked mb4 avenir">Other Projects</h1>
+    <a href="#0" className="fl  w-25 w-25-ns border-box overflow-hidden ba bw2 white" title="">
+      <div className="grow cover bg-center pv5 pv6-l imgstyle1" ></div>
+    </a>
+    <a href="#0" className="fl  w-25  w-25-ns border-box overflow-hidden  ba bw2 white" title="">
+      <div className="grow cover bg-top pv5 pv6-l imgstyle3" ></div>
+    </a>
+    <a href="#0" className="fl  w-25 w-25-ns border-box overflow-hidden ba bw2 white" title="">
+      <div className="grow cover bg-top pv5 pv6-l imgstyle2" ></div>
+    </a>
+    <a href="#0" className="fl w-25  w-25-ns border-box overflow-hidden ba bw2 white" title="">
+      <div className="grow cover bg-top pv5 pv6-l imgstyle6" ></div>
+    </a>
+    <a href="#0" className="fl w-50 border-box overflow-hidden ba bw2 white" title="">
+      <div className="grow cover bg-center pv5 pv7-l imgstyle5" ></div>
+    </a>
+    <a href="#0" className="fl w-50 border-box overflow-hidden ba bw2 white" title="">
+      <div className="grow cover bg-center pv5 pv7-l imgstyle4"></div>
+    </a>
+  </section>
 
 
 
-            </div>
 
 
 
 
- // </div>
+ </div>
           );
   }
 
-export default PortfolioCard;
+export default OtherProjects;
 
 //  <img alt='' src={`https://robohash.org/${id}?200x200'`} />
 //<h2>{appname}</h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-import rejiniPic from './rejiniPic.png';
+import './BioPic.css';
 //import './App.css';
 
 

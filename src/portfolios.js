@@ -1,8 +1,8 @@
 export const portfolios = [
 	{
 		id:1,
-		appname: 'robofriends',
-		appurl: 'www.rjsamuel.com',
+		appname: 'R J Samuel',
+		appurl: 'http://www.rjsamuel.com',
 		appDesc: 'Created with Wordpress this author page is graphically pleasing, informative, and connected.'
 	},
 	{
