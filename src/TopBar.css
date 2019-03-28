@@ -1,0 +1,15 @@
+.TopBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../assets/background-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .TopBar {
+    background-image: url("../../assets/background-mobile.jpg");
+  }
+}

@@ -1,18 +1,32 @@
-img {
-	width: 30%;
-	float: center;
-	margin: 1.66%;
+.TopBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../assets/background-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 21.5em;
 }
 
+@media only screen and (max-width: 560px) {
+  .TopBar {
+    background-image: url("../../assets/background-mobile.jpg");
+  }
+}
+
+img {
+  width: 30%;
+  float: center;
+  margin: 1.66%;
+}
 
 .h1-center {
-	text-align: center;
+  text-align: center;
 }
 
 .textShadow {
-	text-shadow: 5px 5px 15px black;
+  text-shadow: 5px 5px 15px black;
 }
-
 
 /*.HoverText--custom {
   --shadow-text-color: White;

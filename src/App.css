@@ -1,12 +1,11 @@
-body {
-   /* background: url(./assets/flowers.jpg), url(./assets/sea.jpg);*/
- background: url(https://s3.us-east-2.amazonaws.com/picturesforanyone/images/flowers.jpg);
+/* body {
+  /* background: url(./assets/flowers.jpg), url(./assets/sea.jpg);*/ /*
+  background: url(https://s3.us-east-2.amazonaws.com/picturesforanyone/images/flowers.jpg);
   background-repeat: no-repeat, repeat;
   background-size: cover;
   background-color: #950740;
   color: white;
-  
-}
+} */
 
 #content {
   text-align: center;
@@ -15,49 +14,73 @@ body {
   font-size: 2em;
 }
 
-
-
 html {
   height: 100%;
+  font-size: 18px;
 }
 
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
 
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.image-container img {
+  width: 100%;
+}
 
 hr {
   width: 400px;
-  border-top:1 px solid #f8f8f8;
-  border-bottom:1px solid rgba(0,0,0,0.2);
+  border-top: 1 px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+h1 {
+  padding: 0.66rem 0;
+  text-align: center;
+  background-color: #5a3550;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+h2 {
+  padding: 0.66rem 0;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  color: #000;
+}
+/*#913d7b*/
 .App {
+  font-family: "Work Sans", sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.cardslist {
+  margin: 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cards {
+  background-color: #5a3550;
+  color: #f8f8f8;
+}
+
+a {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
