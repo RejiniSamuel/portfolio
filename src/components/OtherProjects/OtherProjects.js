@@ -7,7 +7,6 @@ class OtherProjects extends React.Component {
       <div className="Business">
         <div className="image-container">
           <a href={this.props.otherproject.projurl}>
-            {" "}
             <img src={this.props.otherproject.imgurl} alt="" />
           </a>
         </div>
